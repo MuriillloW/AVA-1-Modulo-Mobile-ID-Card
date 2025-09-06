@@ -1,0 +1,33 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title class="tt-toolbar">
+      Cartão de Identificação
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-card class="cartao">
+    <ion-card-header>
+      <ion-card-title class="titulo">Murilo Peres Leite Vieira</ion-card-title>
+    </ion-card-header>
+
+    <ion-card-content>
+      <div class="foto-container">
+        <ion-avatar class="foto_card">
+          <img alt="Foto do usuário" src="assets/foto.jpeg" />
+        </ion-avatar>
+      </div>
+
+      <div class="dados">
+        <h2>Matricula: 24108073</h2>
+        <h3>Curso: Superior de Tecnologia em Análise e Desenvolvimento de Sistemas</h3>
+      </div>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card-content>
+    <ion-button expand="block" (click)="showPageSobre()">Sobre</ion-button>
+  </ion-card-content>
+</ion-content>

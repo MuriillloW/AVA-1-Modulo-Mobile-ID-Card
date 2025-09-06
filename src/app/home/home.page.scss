@@ -1,0 +1,63 @@
+/* Cartão principal */
+.cartao {
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(43, 3, 223, 0.781);
+  padding: 16px;
+  background-color: rgba(25, 1, 132, 0.283);
+  margin-bottom: 16px;
+}
+
+/* Título do cartão */
+.titulo {
+  font-weight: bold;
+  font-size: 25px;
+  color: #7b5fff; /* roxo principal */
+  margin-bottom: 12px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Container da foto */
+.foto-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+/* Estilo do avatar/foto */
+.foto_card {
+  width: 120px;
+  height: 120px;
+  border: 3px solid rgb(123, 95, 255); /* borda roxa */
+  border-radius: 50%;
+}
+
+/* Dados do usuário (nome, curso, etc.) */
+.dados h2 {
+  margin: 8px 0 4px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #7a03cf; /* tom mais escuro de roxo */
+}
+
+.dados h3 {
+  margin: 8px 0 4px;
+  color: #989797; /* tom mais escuro de roxo */
+}
+
+/* Container de página com padding e fundo degradê roxo */
+.page-container {
+  padding: 16px;
+  background: linear-gradient(to bottom right, #f3e8ff, #e0c3fc); /* degradê lilás/roxo claro */
+  min-height: 100%;
+}
+
+ion-button {
+  --background: rgb(123, 95, 255);
+  --expand: block;
+  --font-size: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}

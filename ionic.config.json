@@ -1,0 +1,7 @@
+{
+  "name": "Ava 1 Mobile (ID Card)",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}

@@ -1,0 +1,36 @@
+ion-card{
+    background-color: rgba(25, 1, 132, 0.283);
+}
+
+ion-card-title {
+    display: flex;
+    justify-content: center;
+    color: rgb(123, 95, 255);
+}
+
+.title-s {
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.text-p {
+    color: white;
+    font-size: 15px;
+}
+
+.text-s {
+    color: rgb(123, 95, 255);
+}
+
+.card-sobre {
+    margin-bottom: 25px;
+}
+
+ion-button {
+  --background: rgb(123, 95, 255);
+  --expand: block;
+  --font-size: 50px;
+  color: white;
+  font-weight: bold;
+  font-size: large;
+}
